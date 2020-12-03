@@ -1,0 +1,11 @@
+1. E2E
+      - end to end test scripts will be residing.
+      - Protractor framework is used to run end to end functional tests.
+      -app.po.ts -> Protractor file which will have "po" file.
+      - app.e2e-spec.ts -> end to end(e2e), unit test(spec) script file.
+2. Node-modules
+      -modules & libraries reside.
+      -add/remove modules/packages.
+      -not to be touched for dev purpose.
+3. src
+      - main workarea where components,modules, services,directives,pipes,etc.
