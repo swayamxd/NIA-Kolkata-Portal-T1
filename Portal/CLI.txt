@@ -1,0 +1,11 @@
+CLI:
+1. ng new <app>
+2. ng --version
+3. ng generate
+		-component
+		-module
+		-service
+		-pipe
+4. ng serve
+	- compiling app
+	-default port-4200
