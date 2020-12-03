@@ -32,3 +32,15 @@
 7. tsconfig.json
       -BUILD AND COMPILATION CONFIGURATIONS
       
+-----------------------------------------------------------------------------------------------------------
+
+BOOTING PROCESS:
+
+ Main.ts
+      -First file to be auto loaded in the app.
+      -At least one module should be present.
+      -Default module provided is App-module.
+      -bootstrapmodule() is provided so that the default module can be changed.
+index.html
+      -the default view which is routed to app/app-component.ts
+      
