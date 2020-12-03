@@ -9,3 +9,14 @@ CLI:
 4. ng serve
 	- compiling app
 	-default port-4200
+	-production - Ahead of Time is by default for this prod.
+5. ng test
+	-run the unit tests. Run in karma runner.Written in jasmine framework.
+6. ng e2e
+	-run end to end tests.
+7. ng update
+8. ng build
+	- build and generate output of app.compiled js code.
+	-promoting code to higher environment.
+9. ng lint
+	-code syntax linting.
