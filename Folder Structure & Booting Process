@@ -9,4 +9,26 @@
       -not to be touched for dev purpose.
 3. src
       - main workarea where components,modules, services,directives,pipes,etc.
+      -app.component.ts( component file)
+      -app.module.ts(module)
+      - app.service.ts(service files)
+      -app.component-spec.ts(Unit test scripts)
+      - assets
+            -styles
+            -icons
+            -images
+      -env
+            -configure varibales or pipelines for dev,test,stage and prod.
+      -polyfills
+            -backward compatibility to outdated browsers to support es6 functionalities.
+4. Angular.json
+      -NIA project configuration
+5. Styles.css
+      -global stylesheet
+      -not to be made heavy
+      -Generic/Common typography,fonts,styles.
+6.Karma.conf.js
+      -karma runner for test scripts.
+7. tsconfig.json
+      -BUILD AND COMPILATION CONFIGURATIONS
       
